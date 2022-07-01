@@ -8,9 +8,9 @@ Open-source P2C Loader designed for CS:GO, Built around [KeyAuth](https://keyaut
 
 ## Dependencies instructions
 
-Download them [here](https://files.catbox.moe/qtx3kt.zip) < br />
-Place them into the main directory (along with all the other folders) < br />
-Extract them, then rename the folder to "Dependencies" < br />
+Download them [here](https://files.catbox.moe/qtx3kt.zip) <br>
+Place them into the main directory (along with all the other folders) <br>
+Extract them, then rename the folder to "Dependencies" <br>
 
 ## FAQ
 
