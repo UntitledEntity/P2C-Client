@@ -26,7 +26,6 @@ namespace SEC {
 		void CheckDrivers();
 		void CheckTraversedMem();
 		void CheckKernelInfo();
-		void CheckSession();
 
 		void CreateThreads();
 

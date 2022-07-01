@@ -25,9 +25,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, PSTR, int)
     if (!Auth.Init() && !Auth.Data.InvalidVer) 
         ASSERT_ERROR(Auth.Data.ErrorMsg.c_str(), STR("[ERR:001A00]"));
 
-    if (std::stoi(Auth.App.UsersOnline) > 100)
-        ASSERT_ERROR(STR("Too many users online. Please try again later."), STR("[ERR:001A00]"));
-
     if (Auth.CheckBlacklisted()) 
         RuntimeSecurity->SecurityCallback(STR("Blacklisted."));
     

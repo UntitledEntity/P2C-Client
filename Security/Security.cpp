@@ -127,25 +127,6 @@ namespace SEC {
 		MUTATE_END
 	}
 
-	void SecurityClass::CheckSession() {
-
-		MUTATE_START
-
-		if (!Auth.Data.Initiated)
-			return;
-
-		for (;;) {
-
-			if (!Auth.CheckExistingSession())
-				SecurityCallback(STR("Malicious activity [Invalid Session]"));
-
-			LI_FN(Sleep)(10000);
-	
-		}
-
-		MUTATE_END
-	}
-
 #pragma optimize("", on)
 
 	bool SecurityClass::Init() 
@@ -175,7 +156,6 @@ namespace SEC {
 		std::thread DriverThread(&SecurityClass::CheckDrivers,		  this); DriverThread.detach();
 		std::thread CheckMemThread(&SecurityClass::CheckTraversedMem, this); CheckMemThread.detach();
 		std::thread KernalInfoThread(&SecurityClass::CheckKernelInfo, this); KernalInfoThread.detach();
-		std::thread CheckSessionThread(&SecurityClass::CheckSession,  this); CheckSessionThread.detach();
 
 		MUTATE_END
 	}
