@@ -23,7 +23,6 @@ Extract them, then rename the folder to "Dependencies" <br>
 Change your keyauth credentials [here](https://github.com/UntitledEntity/P2C-Client/blob/main/UserInterface/UserInterface.cpp#L5) <br>
 Add your file IDs [here](https://github.com/UntitledEntity/P2C-Client/blob/main/auth/Auth.hpp#L457) and [here](https://github.com/UntitledEntity/P2C-Client/blob/main/auth/Auth.hpp#L486)
 
-Change yo
 ## FAQ
 
 ### Help
