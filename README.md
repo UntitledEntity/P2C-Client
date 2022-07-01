@@ -4,7 +4,7 @@
 [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg?style=plastic)](https://en.wikipedia.org/wiki/Microsoft_Windows) 
 [![x86](https://img.shields.io/badge/arch-x86-red.svg?style=plastic)](https://en.wikipedia.org/wiki/X86) 
 
-Open-source P2C Loader designed for CS:GO, Built around [KeyAuth](https://keyauth.win/). Uses the [Themidia](https://www.oreans.com/Themida.php) SDK.
+Open-source P2C Loader designed for CS:GO, Built around [KeyAuth](https://keyauth.win/). Uses the [Themida](https://www.oreans.com/Themida.php) SDK.
 
 ## Dependencies instructions
 
