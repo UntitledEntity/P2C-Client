@@ -6,11 +6,17 @@
 
 Open-source P2C Loader designed for CS:GO, Built around [KeyAuth](https://keyauth.win/). Uses the [Themida](https://www.oreans.com/Themida.php) SDK.
 
-## Dependencies instructions
+### Dependencies
+
+- [ocornut](https://github.com/ocornut) and [contributors](https://github.com/ocornut/imgui/graphs/contributors) [Dear imgui](https://github.com/ocornut/imgui).
+- [weidai11](https://github.com/weidai11) and [contributors](https://github.com/weidai11/cryptopp/graphs/contributors) [cryptoPP](https://github.com/weidai11/cryptopp).
+
+## Instructions
 
 Download them [here](https://files.catbox.moe/qtx3kt.zip) <br>
 Place them into the main directory (along with all the other folders) <br>
 Extract them, then rename the folder to "Dependencies" <br>
+
 
 ## FAQ
 
