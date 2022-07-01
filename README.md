@@ -8,8 +8,8 @@ Open-source P2C Loader designed for CS:GO, Built around [KeyAuth](https://keyaut
 
 ### Dependencies
 
-- [ocornut](https://github.com/ocornut) and [contributors](https://github.com/ocornut/imgui/graphs/contributors) [Dear imgui](https://github.com/ocornut/imgui).
-- [weidai11](https://github.com/weidai11) and [contributors](https://github.com/weidai11/cryptopp/graphs/contributors) [cryptoPP](https://github.com/weidai11/cryptopp).
+- [ocornut](https://github.com/ocornut) and [contributors](https://github.com/ocornut/imgui/graphs/contributors) - [Dear imgui](https://github.com/ocornut/imgui).
+- [weidai11](https://github.com/weidai11) and [contributors](https://github.com/weidai11/cryptopp/graphs/contributors) - [cryptoPP](https://github.com/weidai11/cryptopp).
 
 ## Instructions
 
