@@ -562,8 +562,13 @@ namespace KeyAuth {
 			long http_code = 0;
 			curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &http_code);
 
-			if (http_code == 429) // client was rate limited
+			switch (http_code) {
+			case 429:
+				std::this_thread::sleep_for(std::chrono::seconds(1));
+				return req(data);
+			default:
 				return STR("NULL");
+			}
 
 			return to_return;
 		}
