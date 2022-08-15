@@ -13,6 +13,9 @@ NOTES:
 Themida macros - may error if optimization is on for that function
 Refrence: https://www.oreans.com/help/tm/hm_faq_when-i-use-macros-directly-aro.htm
 
+Themida is included into this source, which requires this library in the same directory
+https://cdn.discordapp.com/attachments/1003540719895592981/1008544405625516062/SecureEngineSDK32.rar
+This includes SecureEngineSDK32.dll, which can be found in Themida\ThemidaSDK (InstallDir\ThemidaSDK)
 
 */
 
